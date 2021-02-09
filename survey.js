@@ -15,7 +15,7 @@ rl.question(`What's your name?  `, (name) => {
 
           console.log(`${name} (${pronouns}) loves ${activity}. ${name} gets energy for ${activity} by eating ${food}. After a long day at the ${activity} store, ${name} likes to relax by ${relax}. So cool!`);
      
-         rl.close();
+          rl.close();
         });
       });
     });
